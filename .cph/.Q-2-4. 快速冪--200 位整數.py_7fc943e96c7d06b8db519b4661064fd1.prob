@@ -1,0 +1,1 @@
+{"name":"Local: Q-2-4","url":"d:\\CODE\\APCS\\Q-2-4. 快速冪--200 位整數.py","tests":[{"id":1776093544232,"input":"123456789012345678901234567890 5 11","output":"10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODE\\APCS\\Q-2-4. 快速冪--200 位整數.py","group":"local","local":true}

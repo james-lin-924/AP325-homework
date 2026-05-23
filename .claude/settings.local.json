@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:judge.tcirc.tw)",
+      "Bash(git pull *)",
+      "Bash(git add *)"
+    ]
+  }
+}

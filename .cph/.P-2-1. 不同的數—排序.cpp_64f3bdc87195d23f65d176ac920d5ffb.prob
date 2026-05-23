@@ -1,0 +1,1 @@
+{"name":"Local: P-2-1","url":"d:\\CODE\\APCS\\P-2-1. 不同的數—排序.cpp","tests":[{"id":1776066072517,"input":"7\n0 3 9 3 3 -1 0","output":"4\n-1 0 3 9"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODE\\APCS\\P-2-1. 不同的數—排序.cpp","group":"local","local":true}
