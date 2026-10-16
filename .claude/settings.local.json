@@ -3,7 +3,15 @@
     "allow": [
       "WebFetch(domain:judge.tcirc.tw)",
       "Bash(git pull *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git config *)",
+      "Bash(git push *)",
+      "Bash(g++ -o q110 \"Q-1-10. 最多得分的皇后.cpp\")",
+      "Bash(./q110)",
+      "Bash(g++ *)",
+      "PowerShell(& \"D:\\\\CODE\\\\APCS\\\\APCS\\\\chapter 1\\\\q110.exe\")",
+      "Bash(\"D:\\\\CODE\\\\APCS\\\\APCS\\\\chapter 1\\\\q110.exe\")"
     ]
   }
 }

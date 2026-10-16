@@ -1,31 +1,20 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
+int n;
+vector<int> v;
+int rec(int goal, int index){
+  if(index >=n)return 0;
+  if(goal < v[index]) return rec(goal,index+1);
+  return max(rec(goal,index+1),rec(goal-v[index],index+1)+v[index]);
+}
+
 int main(){
-  int n;
-  cin >>n;
-  int p[n+1],h[n+1];
-  p[0]=INT_MAX;
-  h[0]=INT_MAX;
-  vector<pair<int, long long>> v;
-  long long ans=0;
-  for(int i=1;i<=n;i++){
-    cin >>p[i];
-  }
-  for(int i=1;i<=n;i++){
-    cin >>h[i];
-  }
-  v.push_back({0,INT_MAX});
-  for(int i=1;i<=n;i++){
-    int k=v.size();
-    while(k>=0 && v[k].second>=p[i]+h[i]){
-      k--;
-    }
-    ans+=i-v[k].first-1;
-    while(!v.empty() && v.back().second<=p[i]){
-      v.pop_back();
-    }
-    v.push_back({i,p[i]});
-  }
-  cout <<ans;
+  int goal;
+  cin >> n >> goal;
+  v.resize(n);
+  for(auto &i:v) cin >> i;
+  sort(v.begin(),v.end());
+  cout << rec(goal,0) <<"\n";
 }
