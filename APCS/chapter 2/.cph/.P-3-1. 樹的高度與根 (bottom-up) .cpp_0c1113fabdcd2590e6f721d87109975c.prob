@@ -1,1 +1,0 @@
-{"name":"Local: P-3-1","url":"d:\\CODE\\APCS\\APCS\\chapter 2\\P-3-1. 樹的高度與根 (bottom-up) .cpp","tests":[{"id":1779723657737,"input":"9\n1 6\n3 5 3 8\n0\n2 1 7\n1 9\n0\n1 2\n0\n0","output":"4\n11"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODE\\APCS\\APCS\\chapter 2\\P-3-1. 樹的高度與根 (bottom-up) .cpp","group":"local","local":true}
