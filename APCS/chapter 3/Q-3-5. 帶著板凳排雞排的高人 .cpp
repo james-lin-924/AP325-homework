@@ -12,7 +12,7 @@ int main(){
   }
   for(int i=1;i<=n;i++){
     cin >>h[i];
-  }
+  } 
   v.push_back({0,(long long)INT_MAX});
   for(int i=1;i<=n;i++){
     long long threshold=(long long)p[i]+h[i];
